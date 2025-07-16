@@ -71,7 +71,3 @@ CREATE TABLE Itens_venda (
 );
 
 
-CREATE INDEX idx_cliente_nome ON Cliente(nome);
-CREATE INDEX idx_produto_nome ON Produto(nome_comercio);
-CREATE INDEX idx_venda_data ON Vendas(data_DATETIME);
-CREATE INDEX idx_venda_cliente ON Vendas(cliente_id_cliente_PK);
